@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<title>Student Details</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+         <form class="hotel-reservation-form" method="post" action="action.php"> 
+            <h1><i class="far fa-calendar-alt"></i>A. Student Details</h1>
+            <div class="fields">
+
+                <!-- Input Elements --><!--onsubmit="return validateForm();"-->
+                <div class="wrapper">
+                    <div>
+                        <label for="name">Name</label>
+                        <div class="field">
+                            <i class="fas fa-user"></i>
+                            <input id="name" type="text" name="name" placeholder="Name" required>
+                        </div>
+                    </div>
+                </div>
+
+                <label for="matricNum">Matric No</label>
+                <div class="field">
+                    <i class="fas fa-envelope"></i>
+                    <input id="matricNum" type="text" name="matricNum" placeholder="Matric Number" required>
+                </div>
+
+                <label for="currAddress">Current Address</label>
+                <div class="field">
+                    <i class="fas fa-envelope"></i>
+                    <input id="currAddress" type="text" name="currAddress" placeholder="Current Address" required>
+                </div>
+
+                <label for="homeAddress">Home Address</label>
+                <div class="field">
+                    <i class="fas fa-envelope"></i>
+                    <input id="homeAddress" type="text" name="homeAddress" placeholder="Home Address" required>
+                </div>
+
+                <label for="email">Email</label>
+                <div class="field">
+                    <i class="fas fa-envelope"></i>
+                    <input id="email" type="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <label for="phone">Mobile Phone Number</label>
+                <div class="field">
+                    <i class="fas fa-phone"></i>
+                    <input id="phone" type="tel" name="phone" placeholder="Your Phone Number" required>
+                </div>
+
+                <label for="homePhone">Home Phone No(Emergency)</label>
+                <div class="field">
+                    <i class="fas fa-phone"></i>
+                    <input id="homePhone" type="tel" name="homePhone" placeholder="Your Phone Number" required>
+                </div>
+
+                <script src="script.js"></script>
+
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+    </body>
+</html>
