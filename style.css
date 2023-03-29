@@ -25,35 +25,35 @@ h1 i {
     padding-right: 10px;
     font-size: 24px;
 }
-.hotel-reservation-form {
+.studentForm {
     background-color: #fcfbfa;
     width: 500px;
     margin: 0 auto;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,.2);
 }
-.hotel-reservation-form .fields {
+.studentForm .fields {
     position: relative;
     padding: 20px;
 }
-.hotel-reservation-form select {
+.studentForm select {
     appearance: none;
     background-image: linear-gradient(45deg, transparent 50%, #c7c9cb 50%), linear-gradient(135deg, #c7c9cb 50%, transparent 50%), linear-gradient(to right, #dfe0e0, #dfe0e0);
     background-position: calc(100% - 20px) 20px, calc(100% - 15px) 20px, calc(100% - 40px) 10px;
     background-size: 5px 5px, 5px 5px, 1px 25px;
     background-repeat: no-repeat;
 }
-.hotel-reservation-form select option:first-child {
+.studentForm select option:first-child {
     display: none;
  }
-.hotel-reservation-form input[type="date"]::-webkit-calendar-picker-indicator {
+.studentForm input[type="date"]::-webkit-calendar-picker-indicator {
     color: #000000;
     filter: invert(0.8);
 }
-.hotel-reservation-form input[type="text"], 
-.hotel-reservation-form input[type="email"],
-.hotel-reservation-form input[type="date"],
-.hotel-reservation-form input[type="tel"],
-.hotel-reservation-form select {
+.studentForm input[type="text"], 
+.studentForm input[type="email"],
+.studentForm input[type="date"],
+.studentForm input[type="tel"],
+.studentForm select {
     display: flex;
     margin-top: 10px;
     padding: 15px;
@@ -62,22 +62,22 @@ h1 i {
     flex-basis: 100%;
     height: 47px;
 }
-.hotel-reservation-form input[type="text"]:focus, 
-.hotel-reservation-form input[type="email"]:focus,
-.hotel-reservation-form input[type="tel"]:focus,
-.hotel-reservation-form input[type="date"]:focus,
-.hotel-reservation-form select:focus {
+.studentForm input[type="text"]:focus, 
+.studentForm input[type="email"]:focus,
+.studentForm input[type="tel"]:focus,
+.studentForm input[type="date"]:focus,
+.studentForm select:focus {
     border: 1px solid #000000;
 }
-.hotel-reservation-form input[type="text"]::placeholder, 
-.hotel-reservation-form input[type="email"]::placeholder, 
-.hotel-reservation-form input[type="tel"]::placeholder, 
-.hotel-reservation-form input[type="date"]:invalid, 
-.hotel-reservation-form textarea::placeholder,
-.hotel-reservation-form select:invalid {
+.studentForm input[type="text"]::placeholder, 
+.studentForm input[type="email"]::placeholder, 
+.studentForm input[type="tel"]::placeholder, 
+.studentForm input[type="date"]:invalid, 
+.studentForm textarea::placeholder,
+.studentForm select:invalid {
     color: #858688;
 }
-.hotel-reservation-form textarea {
+.studentForm textarea {
     resize: none;
     margin-top: 15px;
     padding: 15px;
@@ -85,10 +85,10 @@ h1 i {
     width: 100%;
     height: 150px;
 }
-.hotel-reservation-form textarea:focus {
+.studentForm textarea:focus {
     border: 1px solid #000000;
 }
-.hotel-reservation-form input[type="submit"] {
+.studentForm input[type="submit"] {
     display: block;
     margin-top: 15px;
     padding: 15px;
@@ -99,45 +99,45 @@ h1 i {
     cursor: pointer;
     width: 100%;
 }
-.hotel-reservation-form input[type="submit"]:hover {
+.studentForm input[type="submit"]:hover {
     background-color: #000000;
 }
-.hotel-reservation-form input[name="email"] {
+.studentForm input[name="email"] {
     position: relative;
     display: block;
 }
-.hotel-reservation-form .field {
+.studentForm .field {
     display: inline-flex;
     position: relative;
     width: 100%;
     padding-bottom: 20px;
 }
-.hotel-reservation-form label {
+.studentForm label {
     font-size: 14px;
     font-weight: 600;
     color: #061631;
 }
-.hotel-reservation-form .field i {
+.studentForm .field i {
     position: absolute;
     color: #001325;
     top: 25px;
     left: 15px;
     z-index: 10;
 }
-.hotel-reservation-form .field i ~ input {
+.studentForm .field i ~ input {
     padding-left: 45px !important;
 }
-.hotel-reservation-form .responses {
+.studentForm .responses {
     padding: 15px;
     margin: 0;
 }
-.hotel-reservation-form .fields .wrapper {
+.studentForm .fields .wrapper {
     display: flex;
     justify-content: space-between;
 }
-.hotel-reservation-form .fields .wrapper > div {
+.studentForm .fields .wrapper > div {
     width: 100%;
 }
-.hotel-reservation-form .fields .wrapper .gap {
+.studentForm .fields .wrapper .gap {
     width: 35px;
 }
