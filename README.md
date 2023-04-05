@@ -43,4 +43,4 @@ The input validation need is client-side and server-side.<br>
 4. Lastly message will be displayed
 
 * Click [action.php](action.php) to see how to see action code
-### Click [Authentication](https://github.com/DanielHakim01/Authentication) to see the next step of the project
+### Click [Authentication](https://github.com/DanielHakim01/Authentication) to see the next step of the projectj.
