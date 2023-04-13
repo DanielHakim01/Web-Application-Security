@@ -1,54 +1,18 @@
-html, body, div, input, span, a, select, textarea, option, h1, h2, h3, h4, main, aside, article, section, header, p, footer, nav, pre {
-    box-sizing: border-box;
-    font-family: Tahoma, Geneva, sans-serif;
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
+
 html {
-    background-color: #F8F9F9;
-    background: linear-gradient(0deg, #000000 0%, #000000 80%, #0b4703 80%, #036408 100%);
-    padding: 30px;
-    height: 100%;
+  background-color: #F8F9F9;
+  background: linear-gradient(0deg, #000000 0%, #000000 80%, #0b4703 80%, #036408 100%);
+  padding: 30px;
+  height: 100%;
 }
-input,textarea,select {
-    outline: 0;
-}
-h1 {
-    margin: 0;
-    padding: 25px;
-    font-size: 20px;
-    text-align: center;
-    border-bottom: 1px solid #000000;
-    color: #00295e;
-    font-weight: 600;
-    background-color: #ffffff;
-}
-h1 i {
-    padding-right: 10px;
-    font-size: 24px;
-}
-.studentForm {
-    background-color: #fcfbfa;
-    width: 500px;
-    margin: 0 auto;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.2);
-}
-.studentForm .fields {
-    position: relative;
-    padding: 20px;
-}
-.studentForm select {
-    appearance: none;
-    background-image: linear-gradient(45deg, transparent 50%, #c7c9cb 50%), linear-gradient(135deg, #c7c9cb 50%, transparent 50%), linear-gradient(to right, #dfe0e0, #dfe0e0);
-    background-position: calc(100% - 20px) 20px, calc(100% - 15px) 20px, calc(100% - 40px) 10px;
-    background-size: 5px 5px, 5px 5px, 1px 25px;
-    background-repeat: no-repeat;
-}
-.studentForm select option:first-child {
-    display: none;
- }
-.studentForm input[type="date"]::-webkit-calendar-picker-indicator {
-    color: #000000;
-    filter: invert(0.8);
-}
+
 .studentForm input[type="text"], 
 .studentForm input[type="email"],
 .studentForm input[type="date"],
@@ -88,56 +52,69 @@ h1 i {
 .studentForm textarea:focus {
     border: 1px solid #000000;
 }
-.studentForm input[type="submit"] {
-    display: block;
-    margin-top: 15px;
-    padding: 15px;
-    border: 0;
-    background-color: #0b4703 ;
-    font-weight: bold;
-    color: #fff;
-    cursor: pointer;
-    width: 100%;
+
+/* Page wrapper */
+.page-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.studentForm input[type="submit"]:hover {
-    background-color: #000000;
+
+/* Title */
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #e6e6e6;
 }
-.studentForm input[name="email"] {
-    position: relative;
-    display: block;
+
+/* Form container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1b3f0b;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(212, 0, 0, 0.2);
 }
-.studentForm .field {
-    display: inline-flex;
-    position: relative;
-    width: 100%;
-    padding-bottom: 20px;
+
+/* Form row */
+.form-row {
+  margin-bottom: 10px;
+  color: #e6e6e6;
 }
-.studentForm label {
-    font-size: 14px;
-    font-weight: 600;
-    color: #061631;
+
+/* Form label */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
-.studentForm .field i {
-    position: absolute;
-    color: #001325;
-    top: 25px;
-    left: 15px;
-    z-index: 10;
+
+/* Form input and textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  font-size: 1em;
 }
-.studentForm .field i ~ input {
-    padding-left: 45px !important;
+
+/* Form submit button */
+input[type="submit"] {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-.studentForm .responses {
-    padding: 15px;
-    margin: 0;
-}
-.studentForm .fields .wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-.studentForm .fields .wrapper > div {
-    width: 100%;
-}
-.studentForm .fields .wrapper .gap {
-    width: 35px;
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
 }
