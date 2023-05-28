@@ -9,15 +9,7 @@ The input validation need is client-side and server-side.<br>
 1. It is where we will take all the input needed from user<br>
 2. It takes name, matric number, current address, home address, email, phone number and home number<br>
 3. It uses POST method
-4. It has two different action. 1 is onsubmit="return validateForm(); where it will do client-side validation
-5. The other one is action="action.php" where it will do server-side validation
-6. Chooseeither one.
-7. Just change the code in line 11 [studentForm.html](studentForm.html) using :
 
-```
-<form class="studentForm" method="post" action="action.php">
-<form class="studentForm" method="post" onsubmit="return validateForm();">
-```
 * Click [studentForm.html](studentForm.html) to see how to see student form code
 
 ## style.css
